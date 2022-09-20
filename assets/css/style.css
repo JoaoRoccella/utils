@@ -7,3 +7,12 @@ body {
   line-height: 1.5;
   margin: 0.5rem 0;
 }
+
+.button{
+  padding: 5px 10px;
+}
+
+.input-number {
+  padding: 5px;
+  border: 1px solid #555;
+}
