@@ -1,5 +1,5 @@
 function somaDigitos() {
-  const d1 = document.getElementById("digito1");
-  const d2 = document.getElementById("digito2");
+  const d1 = parseInt(document.getElementById("digito1").value);
+  const d2 = parseInt(document.getElementById("digito2").value);
   document.getElementById("result-sum").innerHTML = d1 + d2;
 }
